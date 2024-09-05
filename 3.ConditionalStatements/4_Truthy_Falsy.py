@@ -13,7 +13,7 @@ STR
 "abc", "123", " " "." -> Truthy
 "" -> Falsy
 """
-if 50 and 0:  # Implicit conversion takes place -> True and False --> False
+if 50 and 1:  # Implicit conversion takes place -> True and False --> False
     print("Yes")
 else:
     print("No")
