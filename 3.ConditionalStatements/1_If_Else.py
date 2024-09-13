@@ -5,3 +5,12 @@ if a % 2 == 0:  # Checks the if conditional block
 
 else:
     print("Odd")  # Enters the else block whenever 'if' block condition fails
+
+# Check whether adult or not
+
+age = int(input("Enter your age: "))
+
+if age >= 18:
+    print("Adult.")
+else:
+    print("Underage.")
