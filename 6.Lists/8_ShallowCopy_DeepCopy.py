@@ -24,7 +24,7 @@ print(f"Original List: {my_list}")
 print(f"Shallow Copy: {shallow_copy}")
 print(f"Deep Copy: {deep_copy}")
 
-# Modify top-level element in shallow and deep copies
+# Modify top-level element in shallow and deep copy
 shallow_copy[0] = 100
 deep_copy[0] = 200
 
