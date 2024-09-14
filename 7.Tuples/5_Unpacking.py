@@ -15,6 +15,21 @@ print(c)  # Output: 3
 
 # Unpacking with * (Extended Iterable Unpacking):
 a, *b, c = (1, 2, 3, 4, 5, 6, 7, 8, 9)
-print(f"{a = }")
-print(f"{b = }")
-print(f"{c = }")
+print(f"{a = }")  # a will hold first element
+print(f"{b = }")  # b will hold middle elements upto second last
+print(f"{c = }")  # c will hold last element
+
+# Unpacking with Functions:
+"""You can unpack arguments when passing them to a function using * for
+tuples/lists and ** for dictionaries."""
+
+
+def my_function(x, y, *z):
+    print(f"x : {x}")
+    print(f"y : {y}")
+    print(f"z : {z}")
+
+
+# Tuple unpacking
+my_tuple = (1, 2, 3, 5)
+my_function(*my_tuple)  # Output: 1 2 3
