@@ -73,7 +73,7 @@ class Student:
         print("<--------------------------------->")
 
 
-student_details: List[Student] = []
+student_details: List[Student] = []  # Creates a list of object of class Student
 student_roll_no_details = set()
 
 while True:
